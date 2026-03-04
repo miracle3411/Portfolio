@@ -27,9 +27,11 @@ export default function Hero() {
             visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center text-white text-4xl font-bold shadow-lg shadow-primary/25">
-            RA
-          </div>
+          <img
+            src="/AmabaRobert.jpeg"
+            alt="Robert Amaba"
+            className="w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 mx-auto mb-8 rounded-full object-cover shadow-2xl shadow-primary/30 border-4 border-primary/30 ring-4 ring-primary/10"
+          />
         </div>
 
         <h1
