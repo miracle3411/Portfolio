@@ -106,7 +106,7 @@ export const projects = [
       "Spring Boot",
       "MySQL",
     ],
-    github: "https://github.com/lRBRTlRobby/EvoHub",
+    github: "https://github.com/miracle3411/EvoHub",
   },
 ];
 
