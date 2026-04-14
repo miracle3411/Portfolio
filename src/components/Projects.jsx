@@ -106,15 +106,17 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
-                >
-                  <Github size={16} />
-                  View on GitHub
-                </a>
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-sm text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
+                  >
+                    <Github size={16} />
+                    View on GitHub
+                  </a>
+                )}
               </div>
             </div>
           ))}

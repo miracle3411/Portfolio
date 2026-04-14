@@ -86,6 +86,31 @@ export const projects = [
     github: "https://github.com/IrishLeigh/CebuStay",
   },
   {
+    title: "Payslip System",
+    subtitle: "Payroll Management System",
+    type: "Freelance Project",
+    duration: "2025 - Present",
+    role: "Full Stack Developer",
+    description:
+      "A web-based payroll management system for generating, managing, and distributing employee payslips across multiple companies and currencies.",
+    achievements: [
+      "Built multi-company payroll management with USD and PHP currency support including live exchange rate conversion",
+      "Implemented bulk payslip delivery via email and bulk PDF generation with folder download support",
+      "Developed a dynamic custom column system with formula builder and Excel data import",
+      "Integrated Supabase authentication with role-based access control and company-level authorization",
+    ],
+    technologies: [
+      "React",
+      "Vite",
+      "Spring Boot",
+      "Java",
+      "MySQL",
+      "Supabase",
+      "Tailwind CSS",
+      "jsPDF",
+    ],
+  },
+  {
     title: "EvoHub",
     subtitle: "School Event Management System",
     type: "Academic Project",
