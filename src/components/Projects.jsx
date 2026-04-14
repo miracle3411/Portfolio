@@ -132,7 +132,7 @@ export default function Projects() {
                     ) : (
                       <span className="inline-flex items-center gap-1.5 text-sm text-gray-600 dark:text-gray-400">
                         <Smartphone size={16} />
-                        Published on Google Play
+                        Coming Soon on Google Play
                       </span>
                     )
                   )}
