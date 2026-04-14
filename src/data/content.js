@@ -80,7 +80,7 @@ export const projects = [
     title: "Payslip System",
     subtitle: "Payroll Management System",
     type: "Freelance Project",
-    duration: "2025 - Present",
+    duration: "March 2026 - April 2026",
     role: "Full Stack Developer",
     description:
       "A web-based payroll management system for generating, managing, and distributing employee payslips across multiple companies and currencies.",
@@ -105,7 +105,7 @@ export const projects = [
     title: "Baon Buddy",
     subtitle: "Allowance Tracker for Filipino Students",
     type: "Personal Project",
-    duration: "2025 - Present",
+    duration: "February 2026 - Present",
     role: "Solo Developer",
     description:
       "A mobile app that helps Filipino students track their daily allowance (baon), log expenses by category, and see if their budget will last until the next reload date.",
