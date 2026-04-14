@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Github, Calendar, Users } from "lucide-react";
+import { Github, Calendar, Users, Smartphone } from "lucide-react";
 import { projects } from "../data/content";
 
 export default function Projects() {
@@ -106,17 +106,37 @@ export default function Projects() {
                   ))}
                 </div>
 
-                {project.github && (
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-sm text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
-                  >
-                    <Github size={16} />
-                    View on GitHub
-                  </a>
-                )}
+                <div className="flex flex-wrap gap-4">
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-sm text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
+                    >
+                      <Github size={16} />
+                      View on GitHub
+                    </a>
+                  )}
+                  {project.playStore && (
+                    typeof project.playStore === "string" ? (
+                      <a
+                        href={project.playStore}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 text-sm text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
+                      >
+                        <Smartphone size={16} />
+                        View on Google Play
+                      </a>
+                    ) : (
+                      <span className="inline-flex items-center gap-1.5 text-sm text-gray-600 dark:text-gray-400">
+                        <Smartphone size={16} />
+                        Published on Google Play
+                      </span>
+                    )
+                  )}
+                </div>
               </div>
             </div>
           ))}

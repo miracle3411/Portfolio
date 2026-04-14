@@ -21,6 +21,7 @@ export const quickStats = [
 export const skills = {
   languages: [
     { name: "JavaScript", level: 67 },
+    { name: "TypeScript", level: 55 },
     { name: "Java", level: 45 },
     { name: "PHP", level: 55 },
     { name: "C", level: 34 },
@@ -28,13 +29,20 @@ export const skills = {
   ],
   frameworks: [
     { name: "React.js", category: "Frontend" },
+    { name: "Tailwind CSS", category: "Frontend" },
     { name: "Material-UI", category: "Frontend" },
     { name: "HTML & CSS", category: "Frontend" },
     { name: "Laravel", category: "Backend" },
     { name: "Spring Boot", category: "Backend" },
+    { name: "React Native", category: "Mobile" },
+    { name: "Expo", category: "Mobile" },
   ],
   tools: [
     { name: "MySQL" },
+    { name: "Supabase" },
+    { name: "Vite" },
+    { name: "Brevo" },
+    { name: "Google Cloud" },
     { name: "XAMPP" },
     { name: "Figma" },
     { name: "Canva" },
@@ -109,6 +117,31 @@ export const projects = [
       "Tailwind CSS",
       "jsPDF",
     ],
+  },
+  {
+    title: "Baon Buddy",
+    subtitle: "Allowance Tracker for Filipino Students",
+    type: "Personal Project",
+    duration: "2025 - Present",
+    role: "Solo Developer",
+    description:
+      "A mobile app that helps Filipino students track their daily allowance (baon), log expenses by category, and see if their budget will last until the next reload date.",
+    achievements: [
+      "Built a real-time budget meter system (green/yellow/red) that calculates daily safe-to-spend based on remaining balance and days left in the allowance period",
+      "Integrated Google AdMob (banner, interstitial, rewarded video) and RevenueCat subscription billing for a free vs. Pro monetization model",
+      "Implemented full offline-first data persistence with AsyncStorage, push notifications, Victory Native charts, and a shareable weekly summary image",
+    ],
+    technologies: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "AsyncStorage",
+      "RevenueCat",
+      "AdMob",
+      "Victory Native",
+      "Expo Notifications",
+    ],
+    playStore: true,
   },
   {
     title: "EvoHub",
