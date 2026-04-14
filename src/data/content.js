@@ -77,23 +77,6 @@ export const experience = [
 
 export const projects = [
   {
-    title: "CebuStay",
-    subtitle: "Booking Application",
-    type: "Capstone Project",
-    duration: "Jan 2024 - Dec 2024",
-    role: "Project Team Lead / Backend Developer",
-    description:
-      "A web and mobile booking application for Cebu City accommodations.",
-    achievements: [
-      "Collaborated with a team of 5 developers",
-      "Transitioned from team member to team lead, managing tasks and coordinating with the project adviser",
-      "Developed backend using PHP (Laravel), building APIs and server-side logic",
-      "Implemented MySQL for database management hosted on XAMPP during development",
-    ],
-    technologies: ["PHP", "Laravel", "MySQL", "XAMPP"],
-    github: "https://github.com/IrishLeigh/CebuStay",
-  },
-  {
     title: "Payslip System",
     subtitle: "Payroll Management System",
     type: "Freelance Project",
@@ -142,6 +125,23 @@ export const projects = [
       "Expo Notifications",
     ],
     playStore: true,
+  },
+  {
+    title: "CebuStay",
+    subtitle: "Booking Application",
+    type: "Capstone Project",
+    duration: "Jan 2024 - Dec 2024",
+    role: "Project Team Lead / Backend Developer",
+    description:
+      "A web and mobile booking application for Cebu City accommodations.",
+    achievements: [
+      "Collaborated with a team of 5 developers",
+      "Transitioned from team member to team lead, managing tasks and coordinating with the project adviser",
+      "Developed backend using PHP (Laravel), building APIs and server-side logic",
+      "Implemented MySQL for database management hosted on XAMPP during development",
+    ],
+    technologies: ["PHP", "Laravel", "MySQL", "XAMPP"],
+    github: "https://github.com/IrishLeigh/CebuStay",
   },
   {
     title: "EvoHub",
