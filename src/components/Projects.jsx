@@ -35,7 +35,7 @@ export default function Projects() {
           {projects.map((project, i) => (
             <div
               key={project.title}
-              className={`group bg-gray-50 dark:bg-dark-surface rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:scale-[1.02] transition-all duration-300 ${
+              className={`group bg-gray-50 dark:bg-dark-surface rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:scale-[1.02] transition-all duration-300 flex flex-col ${
                 visible
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-8"
@@ -51,7 +51,7 @@ export default function Projects() {
                 </span>
               </div>
 
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-1">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="text-xl font-bold">{project.title}</h3>
                   <span className="px-2 py-0.5 bg-primary/10 text-primary text-xs font-medium rounded-full">
@@ -106,7 +106,7 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-wrap gap-4 mt-auto">
                   {project.github && (
                     <a
                       href={project.github}
