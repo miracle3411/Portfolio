@@ -36,9 +36,11 @@ export const skills = {
     { name: "Spring Boot", category: "Backend" },
     { name: "React Native", category: "Mobile" },
     { name: "Expo", category: "Mobile" },
+    { name: "React Navigation", category: "Mobile" },
   ],
   tools: [
     { name: "MySQL" },
+    { name: "SQLite" },
     { name: "Supabase" },
     { name: "Vite" },
     { name: "Brevo" },
@@ -76,6 +78,31 @@ export const experience = [
 ];
 
 export const projects = [
+  {
+    title: "Rent Tracker",
+    subtitle: "Property & Rent Management App",
+    type: "Personal Project",
+    duration: "May 2026",
+    role: "Solo Developer",
+    description:
+      "An Android mobile app for landlords and property managers to track rental properties, guest information, monthly payments, and electric meter readings — fully offline with all data stored locally on the device.",
+    achievements: [
+      "Built a fully offline Android app using local SQLite storage with no backend or internet requirement",
+      "Implemented automated monthly billing cycle detection that rolls over meter readings and schedules rent due push notifications at 8AM",
+      "Integrated one-tap contact actions (call, SMS, WhatsApp) directly from the guest detail view",
+      "Published to Google Play Store via EAS Build with internal testing distribution",
+    ],
+    technologies: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "SQLite",
+      "React Navigation",
+      "expo-notifications",
+      "date-fns",
+    ],
+    github: "https://github.com/miracle3411/rent-tracker",
+  },
   {
     title: "Payslip System",
     subtitle: "Payroll Management System",
